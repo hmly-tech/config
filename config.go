@@ -27,7 +27,7 @@ func New() *Config {
 			Port:     getEnv("DB_PORT", "5432"),
 			User:     getEnv("DB_USER", "meal_ad"),
 			Password: getEnv("DB_PASSWORD", "password"),
-			Name:     getEnv("DB_NAME", "meal_db"),
+			Name:     getEnv("DB_NAME", "meals_db"),
 		},
 	}
 }
